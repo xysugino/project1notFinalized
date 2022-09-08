@@ -3,7 +3,7 @@ const grossData = {
   darkKnight: "$1,081,153,097",
   interstellar: "$701,729,206",
   joker: "$1,074,445,730",
-  spiritedAway: "274,925,095",
+  spiritedAway: "$274,925,095",
   deadMansChest: "$1,066,179,747",
   harryPotter: "1,022,290,019",
   avatar: "$2,847,397,339",
@@ -43,7 +43,7 @@ btnHigher.forEach((button, i) => {
     //HIDE BUTTONS
     btns[i].classList.add("hidden");
     //DISPLAY STATS AND NEXT BUTTTON
-    const speed = 400;
+    const speed = 200;
 
     const updateCount = () => {
       const target = +grossValue[i + 1].getAttribute("data-target");
@@ -96,7 +96,7 @@ btnLower.forEach((button, i) => {
     console.log(i);
     btns[i].classList.add("hidden");
     //DISPLAY STATS AND NEXT BUTTTON
-    const speed = 400;
+    const speed = 200;
 
     const updateCount = () => {
       const target = +grossValue[i + 1].getAttribute("data-target");
