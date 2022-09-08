@@ -1,0 +1,40 @@
+header {
+  background: black;
+  height: 40px;
+  flex: none;
+}
+
+h1 {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: yellow;
+  font-family: Stalinist One;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 414px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+    height: 80px;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}

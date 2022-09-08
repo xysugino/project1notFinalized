@@ -1,0 +1,49 @@
+footer {
+  flex: none;
+  height: 60px;
+  background-color: black;
+  display: none;
+}
+
+.scoreTracker {
+  margin-top: 5px;
+  text-align: center;
+  color: yellow;
+  /* border: 2px solid red; */
+}
+@media only screen and (min-width: 390px) {
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer {
+    display: block;
+    height: 20px;
+    background-color: red;
+    position: relative;
+  }
+
+  .scoreTracker {
+    position: absolute;
+    right: 5%;
+    bottom: 1rem;
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer {
+    display: block;
+    height: 20px;
+    background-color: red;
+    position: relative;
+  }
+
+  .scoreTracker {
+    position: absolute;
+    right: 5%;
+    bottom: 1rem;
+    font-size: 2rem;
+  }
+}

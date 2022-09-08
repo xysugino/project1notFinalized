@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>This Movie Made ...</h1>
+    </header>
+    <main>
+      <div class="movie">
+        <img src="images/darkKnight.jpg" alt="darkKnight" />
+        <div class="gross-value">$1&#44;081&#44;153&#44;097</div>
+        <div class="buttons hidden">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container">
+          <h2 class="gross-value">$1&#44;081&#44;153&#44;097</h2>
+          <button class="nextButton hidden">Next</button>
+        </div>
+      </div>
+      <div class="movie">
+        <img src="images/interstellar.jpg" alt="interstellar" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="701729206">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+      <div class="movie hidden">
+        <img class="movieImage" src="images/joker.jpg" alt="joker" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="1074445730">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img
+          class="movieImage"
+          src="images/spiritedAway.jpg"
+          alt="spiritedAway"
+        />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="274925095">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img
+          class="movieImage"
+          src="images/deadMansChest.jpg"
+          alt="deadMansChest"
+        />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="1066179747">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img
+          class="movieImage"
+          src="images/harryPotter.jpg"
+          alt="harryPotter"
+        />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="1022290019">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img class="movieImage" src="images/avatar.jpg" alt="avatar" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="2847397339">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img class="movieImage" src="images/frozen.jpg" alt="frozen" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="1281508100">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img class="movieImage" src="images/skyfall.jpg" alt="skyfall" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="1108569499">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="movie hidden">
+        <img class="movieImage" src="images/endgame.jpg" alt="endgame" />
+        <div class="buttons">
+          <button class="btnHigh">More</button>
+          <button class="btnLow">Less</button>
+        </div>
+        <div class="gross-next-container hidden">
+          <h2 class="gross-value" data-target="2797501328">0</h2>
+          <button class="nextButton">Next</button>
+        </div>
+      </div>
+
+      <div class="circle hidden">
+        <img class="check" src="images/checkMark.png" />
+      </div>
+
+      <div class="cross hidden">
+        <img class="crossMark" src="images/crossmark.png" />
+      </div>
+
+      <div class="thankYou hidden">
+        <p class="message">THANK YOU!</p>
+      </div>
+    </main>
+    <footer>
+      <p class="scoreTracker">Score: 0</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
