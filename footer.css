@@ -16,30 +16,16 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  footer {
-    display: block;
-    height: 20px;
-    background-color: red;
-    position: relative;
-  }
-
   .scoreTracker {
     position: absolute;
     right: 5%;
-    bottom: 1rem;
+    bottom: 2rem;
     font-size: 2rem;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  footer {
-    display: block;
-    height: 20px;
-    background-color: red;
-    position: relative;
-  }
-
   .scoreTracker {
     position: absolute;
     right: 5%;
